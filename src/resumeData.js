@@ -125,10 +125,10 @@ let resumeData = {
       github: "https://github.com/PanumasMosess/TodoList"
     },
     {
-      name: "Assingment React Router",
-      description: "This project learning basic react Router.",
-      imgurl: "images/portfolio/route.png",
-      github: "https://github.com/PanumasMosess/Assingment_React_Route"
+      name: "React Redux and Firebase tutorial",
+      description: "This project learning basic React Redux and Firebase.",
+      imgurl: "images/portfolio/redux.png",
+      github: "https://github.com/PanumasMosess/MarioPlan"
     }
   ]
 };
