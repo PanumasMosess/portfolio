@@ -43,10 +43,18 @@ let resumeData = {
   ],
   work: [
     {
+      CompanyName: "ALBATROSS LOGISTICS COMPANY LIMITED",
+      specialization: "PROGRAMMER ",
+      MonthOfLeaving: "Dec 2020 - ",
+      YearOfLeaving: "Present",
+      Achievements:
+        "Develop Web Application (WMS programer ,Office Programer) By Javascript,Jquery , html, PHP(Not MVC)  DB SQL Server For Support compamy"
+    },
+    {
       CompanyName: "CANON HT",
       specialization: "PROGRAMMER ",
       MonthOfLeaving: "Dec 2016 - ",
-      YearOfLeaving: "Present",
+      YearOfLeaving: "Jan 2019",
       Achievements:
         "Develop Web App, Win App, DLL  By Javascript,C#,VB6  DB Oracle For Support Department"
     },
@@ -103,6 +111,9 @@ let resumeData = {
     {
       skillname: "NodeJS (learning in progress)",
       imgurl: "images/nodejs.png"
+    },{
+      skillname: "Sql Server",
+      imgurl: "images/SQL_server.png"
     }
   ],
   portfolio: [
