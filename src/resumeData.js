@@ -140,7 +140,19 @@ let resumeData = {
       description: "This project learning basic React Redux and Firebase.",
       imgurl: "images/portfolio/redux.png",
       github: "https://github.com/PanumasMosess/MarioPlan"
-    }
+    },
+    {
+      name: "VMI WMS System",
+      description: "This project wms create by php javascript jquery.",
+      imgurl: "images/portfolio/vmi.png",
+      github: "https://lac-apps.albatrossthai.com/vmi/home"
+    },
+    {
+      name: "Knowledge Bank",
+      description: "This project wms create by php javascript jquery.",
+      imgurl: "images/portfolio/knowledge.PNG",
+      github: "https://lac-apps.albatrossthai.com/vmi/home"
+    },
   ]
 };
 
