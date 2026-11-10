@@ -13,24 +13,44 @@ export default class header extends Component {
             <a className="mobile-btn" href="/" title="Hide navigation">
               Hide navigation
             </a>
-            <ul id="nav" className="nav">
+            <ul
+              id="nav"
+              className="nav"
+              style={{ textShadow: "1px 1px 4px rgba(0, 0, 0, 0.8)" }}
+            >
               <li className="current">
-                <a className="smoothscroll" href="#home">
+                <a
+                  className="smoothscroll"
+                  href="#home"
+                  style={{ color: "#11ABB0" }}
+                >
                   Home
                 </a>
               </li>
               <li>
-                <a className="smoothscroll" href="#about">
+                <a
+                  className="smoothscroll"
+                  href="#about"
+                  style={{ color: "#11ABB0" }}
+                >
                   About
                 </a>
               </li>
               <li>
-                <a className="smoothscroll" href="#resume">
+                <a
+                  className="smoothscroll"
+                  href="#resume"
+                  style={{ color: "#11ABB0" }}
+                >
                   Resume
                 </a>
               </li>
               <li>
-                <a className="smoothscroll" href="#portfolio">
+                <a
+                  className="smoothscroll"
+                  href="#portfolio"
+                  style={{ color: "#11ABB0" }}
+                >
                   Portfolio
                 </a>
               </li>
@@ -48,7 +68,7 @@ export default class header extends Component {
               <hr />
               <ul className="social">
                 {resumeData.socialLinks &&
-                  resumeData.socialLinks.map(item => {
+                  resumeData.socialLinks.map((item) => {
                     return (
                       <li key={item.name}>
                         <a
