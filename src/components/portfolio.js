@@ -66,6 +66,11 @@ export default class Portfolio extends Component {
                                 style={{
                                   color: "#11ABB0",
                                   textDecoration: "none",
+                                  position:
+                                    "relative" /* บังคับให้อยู่เลเยอร์บน */,
+                                  zIndex: 99 /* ให้อยู่หน้าสุด */,
+                                  pointerEvents:
+                                    "auto" /* บังคับให้รับการคลิกเสมอ */,
                                 }}
                               >
                                 {item.name}

@@ -29,7 +29,7 @@ export default class About extends Component {
               <div class="columns download">
                 <p>
                   <a
-                    href="https://drive.google.com/file/d/1VZjREeVFVtAEH4E7Bk65tSD6efk2rpFF/view?usp=sharing"
+                    href="https://drive.google.com/file/d/14s90vNK_mDYH4LBLJM7ZyEge2hKnhcHL/view?usp=sharing"
                     target="_blank"
                     rel="noopener noreferrer"
                     class="button"
