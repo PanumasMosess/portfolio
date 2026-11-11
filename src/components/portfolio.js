@@ -55,26 +55,30 @@ export default class Portfolio extends Component {
                         className="item-wrap"
                         style={{ textAlign: "center" }}
                       >
-                        <div className="portfolio-item-meta">
-                          {/* ชื่อโปรเจกต์เป็นลิงก์คลิกได้ */}
+                        <div
+                          className="portfolio-item-meta"
+                          style={{
+                            cursor:
+                              item.github !== "private git"
+                                ? "pointer"
+                                : "default",
+                          }}
+                          onClick={() => {
+                            if (item.github !== "private git") {
+                              window.open(
+                                item.github,
+                                "_blank",
+                                "noopener,noreferrer",
+                              );
+                            }
+                          }}
+                        >
+                          {/* นำแท็ก <a> ออก และใช้ <span> แทนร่วมกับ onClick ด้านบน */}
                           <h5>
                             {item.github !== "private git" ? (
-                              <a
-                                href={item.github}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                style={{
-                                  color: "#11ABB0",
-                                  textDecoration: "none",
-                                  position:
-                                    "relative" /* บังคับให้อยู่เลเยอร์บน */,
-                                  zIndex: 99 /* ให้อยู่หน้าสุด */,
-                                  pointerEvents:
-                                    "auto" /* บังคับให้รับการคลิกเสมอ */,
-                                }}
-                              >
+                              <span style={{ color: "#11ABB0" }}>
                                 {item.name}
-                              </a>
+                              </span>
                             ) : (
                               <span style={{ color: "#313131" }}>
                                 {item.name}
